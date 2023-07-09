@@ -1,0 +1,6 @@
+cmake_minimum_required(VERSION 3.20)
+project(safe_main VERSION 1.0)
+set(CMAKE_CXX_STANDARD 20)
+set(CMAKE_CXX_STANDARD_REQUIRED 17)
+set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
+add_executable(safe_main main_.cpp safe_main.cpp)
